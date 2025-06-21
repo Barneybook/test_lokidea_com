@@ -1,8 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-  <title>測試用html網站</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全幅風景圖</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .fullscreen-image {
+      background: url("A_high-resolution_digital_photograph_captures_a_la.png") no-repeat center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-  <h1>測試一下這個內容</h1>
+  <div class="fullscreen-image"></div>
 </body>
 </html>
